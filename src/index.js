@@ -6,7 +6,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink} from '@apo
 import { setContext } from '@apollo/client/link/context';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000/',
+  uri: 'https://sma-backend-ymn0.onrender.com',
 });
 
 const authLink = setContext((_, { headers }) => {
