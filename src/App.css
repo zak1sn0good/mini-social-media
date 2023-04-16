@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-bar{
+  width: 90%;
+  margin: 0 auto !important;
+}
+
+.page-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.row-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid{
+  margin-top: 20px !important;
+  width: 60%;
+}
+
+.home-header{
+  margin-top: 10px !important;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.register-form{
+  width: 50%;
+  margin-top: 40px;
+}
+
+.home-error-message{
+  width: 50%;
+  margin-top: 40px !important;
+}
+
+.publish-input > input{
+  border-radius: 25px !important;
+}
+
+.likes-portal-container{
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+}
+
+.add-comment-form{
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
